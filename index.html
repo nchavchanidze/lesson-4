@@ -1,30 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Lesson 4</title>
-    <link rel="stylesheet" type="text/css" href="./reset.css">
-    <link rel="stylesheet" type="text/css" href="./styles.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <li>
-          <a href="">მთავარი</a>
-        </li>
-        <li>
-          <a href="">სიახლეები</a>
-        </li>
-        <li>
-          <a href="">კონტაქტი</a>
-        </li>
-      </nav>
-    </header>
-    <h1>ჩემი პირველი რეპოზიტორი</h1>
-    <p>შემთხვევითად გენერირებული ტექსტი ეხმარება დიზაინერებს და ტიპოგრაფიული ნაწარმის შემქმნელებს, რეალურთან მაქსიმალურად.</p>
-    <ul>
-      <li>ჩემი</li>
-      <li>პირველი</li>
-      <li>ქომითი</li>
-    </ul>
-  </body>
+<head>
+  <title>HTML | მთავარი</title>
+  <link rel="stylesheet" type="text/css" href="./reset.css">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+  <header>
+    <a href="./index.html">
+      <img src="./images/logo.svg" alt="HTML" />
+    </a>
+    <nav>
+      <li>
+        <a class="active" href="./index.html">მთავარი</a>
+      </li>
+      <li>
+        <a href="./news.html">სიახლეები</a>
+      </li>
+      <li>
+        <a href="./contact.html">კონტაქტი</a>
+      </li>
+    </nav>
+  </header>
+
+  <section class="banner-section">
+    <img src="./images/banner.png">
+  </section>
+
+  <section class="featured">
+    <h4>FEATURED | View all featured media</h4>
+    <div class="box">
+      <h5>Responsive Web Design</h5>
+      <div class="box-container">
+        <img src="./images/icons/pointer.svg">
+        <p>approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+      </div>
+    </div>
+    <div class="box box-2">
+      <h5>Responsive Web Design</h5>
+      <div class="box-container">
+        <img src="./images/icons/pointer.svg">
+        <p>approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+      </div>
+    </div>
+  </section>
+</body>
 </html>

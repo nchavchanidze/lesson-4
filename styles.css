@@ -1,3 +1,76 @@
-h1 {
-	color: red;
+header {
+	padding: 30px;
+}
+
+header img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header nav {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 50px;
+}
+
+header nav li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 27px;
+}
+
+header nav li a {
+	color: #3D58A6;
+	font-size: 22px;
+}
+
+header nav li a.active {
+	color: #EE4036;
+}
+
+.banner-section {
+	margin-top: 54px;
+	margin-left: 98px;
+	margin-right: 98px;
+}
+
+.featured {
+	margin-top: 121px;
+	margin-left: 98px;
+	margin-right: 98px;
+}
+
+.featured h4 {
+	margin-bottom: 30px;
+}
+
+.featured .box {
+	width: 570px;
+	height: 225px;
+	background-color: #F2F2F2;
+	padding: 13px 13px 13px 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.featured .box-2 {
+	margin-left:  30px;
+}
+.featured .box h5 {
+	color: #3D58A6;
+	font-size: 22px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.box-container img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.box-container p {
+	display: inline-block;
+	vertical-align: middle;
+	width: 350px;
+	margin-left: 60px;
 }
