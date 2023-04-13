@@ -3,7 +3,18 @@
 	src: url('./fonts/bpg-nino-mtavruli-bold-webfont.ttf');
 }
 
-@font-face {
+/*@font-face {
 	font-family: BPG Ingiri Arial;
 	src: url('./fonts/bpg-ingiri-arial-webfont.ttf');
+}*/
+
+@font-face {
+    font-family: 'BPG Ingiri Arial 2008';
+    src: url('./fonts/BPGIngiriArial2008.eot');
+    src: url('./fonts/BPGIngiriArial2008.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/BPGIngiriArial2008.woff2') format('woff2'),
+        url('./fonts/BPGIngiriArial2008.woff') format('woff'),
+        url('./fonts/bpg-ingiri-arial-webfont.ttf')
+    font-weight: normal;
+    font-style: normal;
 }

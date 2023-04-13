@@ -46,6 +46,8 @@ header nav li a.active {
 .featured h4 {
 	margin-bottom: 30px;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-style: italic;
 }
 
 .featured .box {
@@ -78,5 +80,5 @@ header nav li a.active {
 	vertical-align: middle;
 	width: 350px;
 	margin-left: 60px;
-	font-family: BPG Ingiri Arial;
+	font-family: 'BPG Ingiri Arial 2008';
 }
