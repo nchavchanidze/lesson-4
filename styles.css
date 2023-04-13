@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 header {
 	padding: 30px;
 }
@@ -22,6 +24,7 @@ header nav li {
 header nav li a {
 	color: #3D58A6;
 	font-size: 22px;
+	font-family: BPG Nino Mtavruli;
 }
 
 header nav li a.active {
@@ -42,6 +45,7 @@ header nav li a.active {
 
 .featured h4 {
 	margin-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .featured .box {
@@ -61,6 +65,7 @@ header nav li a.active {
 	font-size: 22px;
 	text-transform: uppercase;
 	margin-bottom: 15px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .box-container img {
@@ -73,4 +78,5 @@ header nav li a.active {
 	vertical-align: middle;
 	width: 350px;
 	margin-left: 60px;
+	font-family: BPG Ingiri Arial;
 }
