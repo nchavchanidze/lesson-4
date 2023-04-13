@@ -81,4 +81,8 @@ header nav li a.active {
 	width: 350px;
 	margin-left: 60px;
 	font-family: 'BPG Ingiri Arial 2008';
+/*	line-height: 4;*/
+/*	letter-spacing: 20px;*/
+	text-align: left;
+	word-break: break-all;
 }
